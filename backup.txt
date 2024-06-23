@@ -1,0 +1,16 @@
+    # Account Type
+    ttk.Label(mid_frame, text="Acc Type: ").grid(row=6, column=1, sticky="e")
+    # Create a variable to hold the selected option
+    radio_var = tk.StringVar(value="Savings")
+    # Create radio buttons
+    radio_button1 = tk.Radiobutton(mid_frame, text="Savings Account", variable=radio_var, value="Savings")
+    radio_button1.grid(row=6, column=2, pady=20, padx=10)
+
+    radio_button2 = tk.Radiobutton(mid_frame, text="Current Account", variable=radio_var, value="Current")
+    radio_button2.grid(row=6, column=3, pady=20, padx=10)
+
+
+    # Username
+    ttk.Label(mid_frame, text="UserName:").grid(row=7, column=1, sticky="e")
+    username_entry = tk.Entry(mid_frame, width=30)
+    username_entry.grid(row=7, column=2, pady=20, padx=20)
