@@ -11,4 +11,4 @@ App_password = 'xxxx xxxx xxxx xxxx'
 
 # Database connection url
 
-DataBaseURL = "mongodb+srv://copycat-devloperz:chipi-chipi@cluster0.zcqzk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DataBaseURL = "mongodb+srv://<your url>"
